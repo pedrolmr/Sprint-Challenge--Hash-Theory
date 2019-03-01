@@ -18,7 +18,7 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
       answer->index_2 = index;
       return answer;
     }
-    hash_table_insert(ht, limit-weights[i], i);
+    hash_table_insert(ht, limit - weights[i], i);
     
   }
   return NULL;
